@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>🤝</title>
+  <link rel="stylesheet" href="font-awesome.min.css">
+  <link href="/public/styles.css" rel="stylesheet" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300;800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <section>
+    <section>
+      <h1 id="postit">Community Board <br> 🤝</h1>
+
+      <p>Use this message board to post about:</p>
+      <p>Lost & found items 👀</p>
+      <p>Free/curbed goodies for grabs 🤑</p>
+      <p>Labor exchanges + small gigs 🛠</p>
+      <p>Encouraging reminders 🧘‍♀️</p>
+
+    </section>
+
+    <ul class="messages">
+      <% for(var i=0; i<messages.length; i++) {%>
+        <% let color = messages[i].priority === 'high' ? 'magenta' : 'black' %>
+        <li class="message">
+          <span id="<%= color %>"><%=messages[i].msg%></span><br><br>
+          <span><%=messages[i].thumbUp%></span>
+          <span id="<%=messages[i]._id%>"></span>
+          <span ><i class="fa fa-heart" aria-hidden="true"></i></span>
+          <span><i class="fa fa-trash" aria-hidden="true"></i></span><br>
+        </li>
+        <% } %>
+    </ul>
+  </section>
+  <section class="form">
+    <form action="/messages" method="POST">
+      <textarea type="text" placeholder="Start writing post here..." name="msg"></textarea> <br><br>
+      <span>🚨 Check if high priority:</span>
+      <input type="radio" id="mark" name="priority"><br>
+      <button type="submit">Create Post</button>
+    </form>
+  </section>
+  </section>
+  <script src="/public/main.js"></script>
+
+</body>
+
+</html>
