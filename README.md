@@ -1,4 +1,4 @@
-![Community Board](public/demo.png)
+<img src="https://i.postimg.cc/0j0cJh8R/communityboard.png">
 
 ## Installation
 
