@@ -4,10 +4,10 @@ I built this project using HTML/CSS, JavaScript, Node.js/Express, and MongoDB. U
 <img src="https://i.postimg.cc/0j0cJh8R/communityboard.png">
 
 <b>Goals:</b>
-This was one of my first projects using CRUD, Node.js/Express and MongoDB so I wanted to feel comfortable with EJS templates and sending requests to the server. My goal was to allow users to interact with other posts and to create an intuitive layout for showing the posts.
+This was my first project using CRUD, Node.js/Express and MongoDB. I wanted to feel comfortable with EJS templates and sending requests to the server. My goal was to allow users to interact with other posts and to create an intuitive layout for showing the posts.
 
 <b>Results:</b>
-After this project, I feel comfortable using get, post, put, and delete requests. I made posts interactive by using event handlers to fetch data from server side APIs.
+After this project, I feel comfortable using get, post, put, and delete requests. I made posts interactive by using event handlers to fetch data from server side APIs. I also successfully stored all posts, users, likes, and high priority status in MongoDB.
 
 
 ## Installation
