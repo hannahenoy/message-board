@@ -1,5 +1,6 @@
 ## Community Message Board
 
+<p align="center">
 <img src="https://i.postimg.cc/76PZk653/demo.png" width="70%">
 
 This app functions as a community message board, where users can post messages, delete their own posts, interact with others' posts by liking them, and create high-priority posts to draw special attention to a particular message or topic. By providing these tools, the app offers a dynamic platform for users to engage with one another and share information.
