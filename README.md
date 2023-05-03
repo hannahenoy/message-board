@@ -1,14 +1,22 @@
-<h1>Community Message Board</h1>
-I built this project using HTML/CSS, JavaScript, Node.js/Express, and MongoDB. Users can create and delete posts, see and like posts from others, and choose an option to create high priority posts.
-<br><br>
-<img src="https://i.postimg.cc/76PZk653/demo.png">
+## Community Message Board
 
-<b>Goals:</b>
-This was my first project using CRUD, Node.js/Express and MongoDB. I wanted to feel comfortable with EJS templates and sending requests to the server. My goal was to allow users to interact with other posts and to create an intuitive layout for showing the posts.
+<img src="https://i.postimg.cc/76PZk653/demo.png" width="70%">
 
-<b>Results:</b>
-After this project, I feel comfortable using get, post, put, and delete requests. I made posts interactive by using event handlers to fetch data from server side APIs. I also successfully stored all posts, users, likes, and high priority status in MongoDB.
+This app functions as a community message board, where users can post messages, delete their own posts, interact with others' posts by liking them, and create high-priority posts to draw special attention to a particular message or topic. By providing these tools, the app offers a dynamic platform for users to engage with one another and share information.
 
+## Tech Used
+![HTML5 BADGE](https://img.shields.io/static/v1?label=|&message=HTML5&color=blueviolet&style=flat&logo=html5)
+![CSS BADGE](https://img.shields.io/static/v1?label=|&message=CSS3&color=blueviolet&style=flat&logo=css3)
+![JAVASCRIPT BADGE](https://img.shields.io/static/v1?label=|&message=JAVASCRIPT&color=blueviolet&style=flat&logo=javascript)
+![NODE.JS BADGE](https://img.shields.io/static/v1?label=|&message=NODE.JS&color=blueviolet&style=flat&logo=node.js)
+![EXPRESS BADGE](https://img.shields.io/static/v1?label=|&message=EXPRESS&color=blueviolet&style=flat&logo=express)
+![MONGODB BADGE](https://img.shields.io/static/v1?label=|&message=MONGO-DB&color=blueviolet&style=flat&logo=mongodb)
+
+## Goals
+Gain familiarity with CRUD operations, Node.js/Express, MongoDB, sending server requests, and become proficient with EJS templates. I was particularly interested in learning more about MongoDB's document-based data storage and how it differs from traditional relational databases.
+
+## Results
+By working with MongoDB, I was able to better understand how to store and retrieve data in a non-relational database. I also gained experience in using MongoDB's query language to interact with the data and perform CRUD operations.
 
 ## Installation
 
